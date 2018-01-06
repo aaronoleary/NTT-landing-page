@@ -21,7 +21,7 @@ form {
 
 
 .description {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.3em;
   margin: -2px 0 45px;
@@ -46,7 +46,7 @@ form {
   font-family: inherit;
   color: #737373;
   letter-spacing: 1px;
-  text-indent: 5%;
+  text-indent: 3%;
   border-radius: 5px 0 0 5px;
 }
 
@@ -70,7 +70,11 @@ form {
 }
 
 
-
+input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+  box-shadow: 0 0 2px #E86C8D;
+}
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -80,7 +84,7 @@ form {
       font-size: 16px;
     }
     form {
-      max-width: 200px;
+      max-width: 400px;
     }
 
 }

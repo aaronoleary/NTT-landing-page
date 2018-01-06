@@ -39,6 +39,11 @@ form {
   border: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 
 #email {
   width: 75%;

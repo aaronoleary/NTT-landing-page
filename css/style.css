@@ -1,15 +1,17 @@
 
 body {
-  background: #F45FFF;
+  background: linear-gradient(0deg,rgba(255,0,150,0.4),rgba(255,0,150,0.4)), url("../img/background.jpg");
+  background-size: cover;
   font-family: 'Nunito', sans-serif;
   color: #FDFCFB;
   text-align: center;
+
 }
 
 
 form {
   width: 600px;
-  margin: 10% auto;
+  margin: 15% auto;
 }
 
 
@@ -23,7 +25,7 @@ form {
 .description {
   font-size: 16px;
   letter-spacing: 1px;
-  line-height: 1.3em;
+  line-height: 1em;
 
 }
 

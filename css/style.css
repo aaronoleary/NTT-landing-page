@@ -83,5 +83,8 @@ input:focus {
     .header{
       font-size: 16px;
     }
+    form {
+      width: 200px;
+    }
 
 }

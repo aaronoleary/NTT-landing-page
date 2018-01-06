@@ -70,11 +70,7 @@ form {
 }
 
 
-input:focus {
-  outline: none;
-  outline: 2px solid #E86C8D;
-  box-shadow: 0 0 2px #E86C8D;
-}
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)

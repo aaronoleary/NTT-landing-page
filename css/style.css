@@ -84,7 +84,7 @@ input:focus {
       font-size: 16px;
     }
     form {
-      width:  auto;
+      max-width: 80%;
     }
 
 }

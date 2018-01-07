@@ -82,7 +82,7 @@ a {
 .boxed {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   width: auto;
   background-color: white;
 
@@ -102,25 +102,25 @@ footer {
     /* Height of the footer */
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 699px){
 
-    .header{
+form  {
+      font-family: 'Lato', sans-serif;
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 10px 10px 15px;
       font-size: 16px;
+      line-height: 1.2;
+      text-align: left;
+      color: #ffffff;
+      font-weight: 800;
     }
-    form {
-      max-width: 100%;
-      font-size: 16px;
-    
-
+    .header {
+      font-size: 20px;
     }
     body {
-      width: 100%;
-      height: auto;
       background-image: none;
-      background-color: #f453cf;
+      background-color: #FF60F9;
     }
-
-}
+  }

@@ -117,6 +117,8 @@ footer {
     body {
       width: 100%;
       height: auto;
+      background-image: none;
+      background-color: #f453cf;
     }
 
 }

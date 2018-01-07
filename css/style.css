@@ -110,7 +110,7 @@ form  {
       max-width: 600px;
       margin: 0 auto;
       padding: 10px 10px 15px;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 1.2;
       text-align: left;
       color: #ffffff;
@@ -124,6 +124,6 @@ form  {
       background-color: #FF60F9;
     }
     #submit {
-      width: 45%;
+      width: 35%;
     }
   }

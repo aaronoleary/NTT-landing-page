@@ -123,4 +123,7 @@ form  {
       background-image: none;
       background-color: #FF60F9;
     }
+    #submit {
+      width: 35%;
+    }
   }

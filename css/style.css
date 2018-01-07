@@ -83,11 +83,7 @@ a {
   align-items: center;
   width: auto;
   background-color: white;
-  border-radius: 15px;
-  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.12))
-          drop-shadow(0 1px 18px rgba(0, 0, 0, 0.14))
-          drop-shadow(0 3px 5px rgba(0, 0, 0, 0.12))
-										drop-shadow(0 -2px 3px rgba(0, 0, 0, 0.1));
+
 
 }
 .mentorship {
@@ -97,7 +93,12 @@ a {
 .mentorship a{
   color: black;
 }
-
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+    /* Height of the footer */
+}
 
 @media only screen
   and (min-device-width: 375px)

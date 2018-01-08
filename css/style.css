@@ -1,11 +1,12 @@
 
 body {
-  background: linear-gradient(0deg,rgba(255,0,150,0.4),rgba(255,0,150,0.4)), url("../img/background.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255,0,150,0.4),rgba(255,0,150,0.4)), url("../img/background.jpg");
+  background-repeat: repeat;
   background-size: cover;
   font-family: 'Nunito', sans-serif;
   color: #FDFCFB;
   text-align: center;
+  
 
 }
 

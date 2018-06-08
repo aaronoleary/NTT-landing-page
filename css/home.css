@@ -1,0 +1,48 @@
+
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+
+
+.hero_image {
+  background: linear-gradient(
+      rgba(215, 85, 215, 0.50),
+      rgba(215, 85, 215, 0.50)
+    ), url("../img/teamwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+  height: 100%;
+}
+
+
+.hero_text {
+    font-size: 32px;
+    font-weight: 700;
+    color: WHITE;
+    line-height: 2.5em;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hand {
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+.description {
+  font-weight:600;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1em;
+
+}
+.emoji {
+  font-size: 64px;
+}

@@ -8,10 +8,7 @@ html, body {
 
 
 .hero_image {
-  background: linear-gradient(
-      rgba(215, 85, 215, 0.50),
-      rgba(215, 85, 215, 0.50)
-    ), url("../img/teamwork.jpg");
+  background:  url("../img/newspace.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: relative;
@@ -23,7 +20,7 @@ html, body {
     font-size: 32px;
     font-weight: 700;
     color: WHITE;
-    line-height: 2.5em;
+    line-height: 3em;
     text-align: left;
     position: absolute;
     top: 50%;
@@ -31,9 +28,24 @@ html, body {
     transform: translate(-50%, -50%);
     color: white;
 }
-.hand {
-  background-color: rgba(0, 0, 0, 0.3);
+.intro {
+  width: 600px;
+  margin: 0 auto;
+  clear: both;
 
+
+
+}
+.lower  {
+  float: left;
+  font-weight: 700;
+}
+.higher {
+    float:right;
+    background-color: #F5F5F5;
+    margin: 10px 20px;
+    padding: 20px;
+    width: 180px;
 }
 .description {
   font-weight:600;

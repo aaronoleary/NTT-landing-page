@@ -1,34 +1,78 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
-body {
-  background-color: white;
+html, body {
+  background-color: #FBFBFB;
   font-family: 'Nunito', sans-serif;
   color: black;
-
-
-
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-
-form {
-  width: 600px;
-  margin: 7.5% auto;
-
+.row {
+  display: flex;
+  margin: 5% auto;
 }
 
+.tech {
+  color: #E007B3;
+  font-weight: 800;
+}
 
+.column {
+  flex: 50%;
+  margin-left: 5%;
+}
+.column2 {
+  flex: 50%;
+  margin-left: 5%;
+}
+
+.navigation {
+  float: right;
+  width: 100%;
+}
+
+.gif {
+ border-radius: 20px;
+}
+#join {
+  width: 30%;
+  height: 50px;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  border-style:solid;
+}
+
+p {
+  line-height: 40px;
+}
+.para {
+  color: #969696;
+}
 .header {
+  font-size: 32px;
+  font-weight: 800;
+
+
+
+
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
   font-size: 35px;
-  text-transform: uppercase;
-
-
 }
 
 
 .description {
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1em;
+
 
 }
 
@@ -53,7 +97,7 @@ a {
 
 #email {
   width: 75%;
-  background: #FDFCFB;
+  background: white;
   font-family: inherit;
   color: #737373;
   letter-spacing: 1px;
@@ -90,13 +134,7 @@ a {
 
 
 }
-.slack {
-  background-color: pink;
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  width: 400px;
-  }
+
 .mentorship {
   color: black;
 }
@@ -114,7 +152,7 @@ footer {
 @media (max-width: 699px){
 
 form  {
-      font-family: 'Lato', sans-serif;
+      font-family: 'nunito', sans-serif;
       width: 90%;
       max-width: 600px;
       margin: 0 auto;
@@ -126,7 +164,7 @@ form  {
       font-weight: 800;
     }
     .header {
-      font-size: 20px;
+      font-size: 28px;
     }
     body {
       background-image: none;
@@ -135,216 +173,23 @@ form  {
     #submit {
       width: 35%;
     }
+    .gif {
+      visibility: hidden;
+
+    }
+    .column {
+      float: none;
+      flex: 100%;
+
+    }
+    .column2 {
+      visibility: hidden;
+    }
+    .getintouch {
+      font-size: 25px;
+      float: left;
+    }
   }
   @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-.snip1540 {
-  box-shadow: none !important;
-  color: #141414;
-  display: inline-block;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.4em;
-  margin: 16px 40px 40px 40px;
-  max-width: 315px;
-  min-width: 230px;
-  position: relative;
-  text-align: left;
-  width: 100%;
-}
-
-.snip1540 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.snip1540 .profile-image img {
-  border-radius: 5px;
-  max-width: 100%;
-  height: 80px;
-  vertical-align: top;
-  float: left;
-}
-
-.snip1540 figcaption {
-  background-color: #333333;
-  border-radius: 5px;
-  color: #fff;
-  display: inline-block;
-  margin-top: 15px;
-  padding: 25px;
-  position: relative;
-  width: 100%;
-}
-
-.snip1540 figcaption:after {
-  border-color: transparent transparent #333333 transparent;
-  border-style: solid;
-  border-width: 0 10px 10px 10px;
-  bottom: 100%;
-  content: '';
-  height: 0;
-  left: 32px;
-  position: absolute;
-  width: 0;
-}
-
-.snip1540 h3,
-.snip1540 h4,
-.snip1540 p {
-  margin: 0 0 5px;
-}
-
-.snip1540 h3 {
-  font-weight: 600;
-  font-size: 1.2em;
-  font-family: 'Montserrat', Arial, sans-serif;
-}
-
-.snip1540 h4 {
-  color: #8c8c8c;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.snip1540 p {
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  opacity: 0.9;
-}
-
-.snip1540 .icons {
-  padding: 20px 90px;
-}
-
-.snip1540 i {
-  color: grey;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: normal;
-  opacity: 0.75;
-  padding: 10px 2px;
-}
-
-.snip1540 i:hover {
-  opacity: 1;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.hand {
-  -webkit-transform: rotate(-40deg);
--moz-transform: rotate(-40deg);
--o-transform: rotate(-40deg);
--ms-transform: rotate(-40deg);
-transform: rotate(-40deg);
--webkit-animation: wink 0.5s alternate infinite; /* Safari 4+ */
-  -moz-animation:    wink 0.5s alternate infinite; /* Fx 5+ */
-  -o-animation:      wink 0.5s alternate infinite; /* Opera 12+ */
-  animation:         wink 0.5s alternate infinite; /* IE 10+, Fx 29+ */
--webkit-transform-origin: 50% 100%;
--moz-transform-origin: 50% 100%;
--o-transform-origin: 50% 100%;
--ms-transform-origin: 50% 100%;
-transform-origin: 50% 100%;
--webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
-animation-timing-function: ease;
-
-
-
-
-
-}
-
-
-
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes wink {
-    0% {-webkit-transform: rotate(-40deg);
--moz-transform: rotate(-40deg);
--o-transform: rotate(-40deg);
--ms-transform: rotate(-40deg);
-
-}
-
-
-
-100% {-webkit-transform: rotate(40deg);
--moz-transform: rotate(40deg);
--o-transform: rotate(40deg);
--ms-transform: rotate(40deg);
-transform: rotate(40deg);}
-
-
-
-
-}
-
-/* Standard syntax */
-@keyframes wink {
-
-
-    0% {-webkit-transform: rotate(-40deg);
--moz-transform: rotate(-40deg);
--o-transform: rotate(-40deg);
--ms-transform: rotate(-40deg);
-transform: rotate(-40deg);
-}
-
-
-100% {-webkit-transform: rotate(40deg);
--moz-transform: rotate(40deg);
--o-transform: rotate(40deg);
--ms-transform: rotate(40deg);
-transform: rotate(40deg);}
-
-
-
-}
-.search-container{
-  width: 40%;
-  display: block;
-  margin: 0 auto;
-}
-
-input#search-bar{
-  margin: 0 auto;
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
-  width: 100%;
-  height: 45px;
-  padding: 0 20px;
-  font-size: 1rem;
-  border: 1px solid #D0CFCE;
-  border-radius: 10px;
-  outline: none;
-  &:focus{
-    border: 1px solid #008ABF;
-    transition: 0.35s ease;
-    color: #008ABF;
-    &::-webkit-input-placeholder{
-      transition: opacity 0.45s ease;
-  	  opacity: 0;
-     }
-    &::-moz-placeholder {
-      transition: opacity 0.45s ease;
-  	  opacity: 0;
-     }
-    &:-ms-placeholder {
-     transition: opacity 0.45s ease;
-  	 opacity: 0;
-     }
-   }
- }
-
-
-
-
-
-
-}
-
-
-
-/* Demo purposes only */

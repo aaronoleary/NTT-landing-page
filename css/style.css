@@ -7,12 +7,52 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+.navbar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  transition: 0.5s ease;
+}
 
+.navbar .nav {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+.navbar .nav .item .Mentor {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 40px;
+
+  border-radius: 20px;
+  line-height: 30px;
+  padding: 1px;
+
+  transition: 0.5s ease;
+}
+
+.navbar .nav .item a {
+  text-decoration: none;
+  color: inherit;
+}
 .row {
   display: flex;
   margin: 5% auto;
 }
-
 .tech {
   color: #E007B3;
   font-weight: 800;
@@ -25,6 +65,7 @@ html, body {
 .column2 {
   flex: 50%;
   margin-left: 5%;
+
 }
 
 .navigation {
@@ -34,6 +75,7 @@ html, body {
 
 .gif {
  border-radius: 20px;
+
 }
 #join {
   width: 30%;
@@ -53,7 +95,7 @@ p {
   color: #969696;
 }
 .header {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 800;
 
 
